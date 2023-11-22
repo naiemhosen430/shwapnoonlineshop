@@ -39,7 +39,7 @@ export default function Menu() {
         data-aos="fade-up"
       >
         <div className="lg:w-3/12 w-9/12">
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-bold lg:text-2xl text-xl">
             <Link href={"/"}>Shwapno Online Shop</Link>
           </h1>
         </div>
