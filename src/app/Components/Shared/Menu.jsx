@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import { FaSearch } from "react-icons/fa";
 
 import {
   IoLogoFacebook,
@@ -34,7 +35,7 @@ export default function Menu() {
   return (
     <>
       <div
-        className="p-2 px-4 z-10 sticky flex top-0 bg-white shadow-xl"
+        className="p-2 px-8 z-10 sticky flex top-0 bg-gradient-to-t from-slate-400 to-slate-600"
         data-aos="fade-up"
       >
         <div className="lg:w-3/12 w-9/12">
@@ -43,7 +44,7 @@ export default function Menu() {
           </h1>
         </div>
 
-        <div className="lg:w-4/12 lg:block hidden">
+        <div className="lg:w-6/12 lg:block hidden">
           <ul className="flex space-x-2">
             <Link
               href={"/cetagory"}
@@ -78,19 +79,19 @@ export default function Menu() {
           </ul>
         </div>
 
-        <div className="lg:w-4/12 hidden lg:flex items-center">
+        <div className="lg:w-3/12 hidden lg:flex items-center">
           <input
-            className="py-2 px-4 rounded-3xl text-slate-950 border bg-slate-300"
+            className="py-2 px-4 rounded-3xl rounded-tr-none rounded-br-none text-slate-950 border bg-slate-300"
             type="search"
             name=""
             id=""
             placeholder="Search your keyword"
           />
           <Link
-            className="text-black bg-slate-400 rounded-2xl py-2 px-4"
+            className="text-white bg-slate-700 rounded-2xl rounded-tl-none rounded-bl-none py-2 px-4"
             href={'/search/"something"'}
           >
-            Search
+            <FaSearch className="inline-block" />
           </Link>
         </div>
 
@@ -106,19 +107,19 @@ export default function Menu() {
 
       {menuBox && (
         <div className="w-screen h-screen py-5" data-aos="fade-left">
-          <div className="w-12/12 lg:flex justify-center items-center">
+          <div className="w-full flex justify-center items-center p-5">
             <input
-              className="py-2 px-4 w-8/12 rounded-3xl text-slate-950 border bg-slate-300"
+              className="py-2 px-4 rounded-3xl block w-10/12 rounded-tr-none rounded-br-none text-slate-950 border bg-slate-300"
               type="search"
               name=""
               id=""
               placeholder="Search your keyword"
             />
             <Link
-              className="text-black w-4/12 bg-slate-400 rounded-2xl py-2 px-4"
+              className="text-white block w-2/12 text-center bg-slate-700 rounded-2xl rounded-tl-none rounded-bl-none py-2 px-2"
               href={'/search/"something"'}
             >
-              Search
+              <FaSearch className="inline-block" />
             </Link>
           </div>
           <ul className="space-y-2 lg:space-x-2">
