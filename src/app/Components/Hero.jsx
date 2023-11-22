@@ -20,7 +20,7 @@ export default function Hero() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="h-screen lg:p-20 p-10 px-10"
+        className="lg:p-20 p-10 px-10"
         data-aos="fade-top"
       >
         <div className="lg:flex">
