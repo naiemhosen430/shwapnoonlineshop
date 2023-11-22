@@ -39,7 +39,7 @@ export default function Menu() {
       >
         <div className="lg:w-3/12 w-9/12">
           <h1 className="font-bold text-2xl">
-            <Link href={"/"}>ShopNest</Link>
+            <Link href={"/"}>Shwapno Online Shop</Link>
           </h1>
         </div>
 
@@ -52,10 +52,22 @@ export default function Menu() {
               Catagory
             </Link>
             <Link
-              href={"/project"}
+              href={"/product"}
               className="font-bold p-2 px-4 hover:text-slate-500 hover:bg-slate-300 cursor-pointer rounded-xl"
             >
-              Project
+              Product
+            </Link>
+            <Link
+              href={"/service"}
+              className="font-bold p-2 px-4 hover:text-slate-500 hover:bg-slate-300 cursor-pointer rounded-xl"
+            >
+              Service
+            </Link>
+            <Link
+              href={"/order"}
+              className="font-bold p-2 px-4 hover:text-slate-500 hover:bg-slate-300 cursor-pointer rounded-xl"
+            >
+              Order
             </Link>
             <Link
               href={"/pricing"}
@@ -116,6 +128,20 @@ export default function Menu() {
               className="font-bold p-2 px-4 block hover:text-slate-500 hover:bg-slate-300 cursor-pointer rounded-xl"
             >
               Catagory
+            </Link>
+            <Link
+              onClick={toggleMenu}
+              href={"/service"}
+              className="font-bold p-2 px-4 block hover:text-slate-500 hover:bg-slate-300 cursor-pointer rounded-xl"
+            >
+              Service
+            </Link>
+            <Link
+              onClick={toggleMenu}
+              href={"/product"}
+              className="font-bold p-2 px-4 block hover:text-slate-500 hover:bg-slate-300 cursor-pointer rounded-xl"
+            >
+              Product
             </Link>
             <Link
               onClick={toggleMenu}
