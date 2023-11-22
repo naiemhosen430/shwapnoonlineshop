@@ -35,11 +35,11 @@ export default function Menu() {
   return (
     <>
       <div
-        className="p-2 px-8 z-10 sticky flex top-0 bg-gradient-to-t from-slate-400 to-slate-600"
+        className="p-2 px-8 z-10 sticky flex items-center top-0 bg-gradient-to-t from-slate-600 to-slate-800"
         data-aos="fade-up"
       >
         <div className="lg:w-3/12 w-9/12">
-          <h1 className="font-bold lg:text-2xl text-xl">
+          <h1 className="font-bold lg:text-2xl text-xl text-white">
             <Link href={"/"}>Shwapno Online Shop</Link>
           </h1>
         </div>
@@ -98,7 +98,7 @@ export default function Menu() {
         <div className="lg:hidden w-3/12 text-right">
           <button
             onClick={toggleMenu}
-            className="inline-block py-1 px-4 text-black text-3xl font-bold rounded-md"
+            className="inline-block py-1 px-4 text-white text-3xl font-bold rounded-md"
           >
             <IoMdReorder />
           </button>
