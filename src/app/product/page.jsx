@@ -1,11 +1,10 @@
 import React from "react";
-import SingleItem from "../SingleItem";
+import SingleItem from "../Components/SingleItem";
 
-export default function TopItems() {
+export default function page() {
   return (
     <>
       <div className="p-10 lg:my-10 mt-30">
-        <h1 className="text-center text-3xl p-4 font-bold">Top Items</h1>
         <div className="text-center">
           <SingleItem
             image={
@@ -15,7 +14,6 @@ export default function TopItems() {
             price={"1000000"}
             sell={"10"}
             rating={"4.8"}
-            id={"id"}
           />
           <SingleItem
             image={
@@ -25,7 +23,6 @@ export default function TopItems() {
             price={"4000"}
             sell={"100"}
             rating={"4.5"}
-            id={"id"}
           />
           <SingleItem
             image={
@@ -35,7 +32,6 @@ export default function TopItems() {
             price={"400000"}
             sell={"150"}
             rating={"4.2"}
-            id={"id"}
           />
           <SingleItem
             image={
@@ -45,7 +41,6 @@ export default function TopItems() {
             price={"400"}
             sell={"180"}
             rating={"4.2"}
-            id={"id"}
           />
           <SingleItem
             image={
@@ -55,7 +50,6 @@ export default function TopItems() {
             price={"2500"}
             sell={"500"}
             rating={"4.9"}
-            id={"id"}
           />
           <SingleItem
             image={
@@ -65,7 +59,6 @@ export default function TopItems() {
             price={"4080"}
             sell={"105"}
             rating={"4.4"}
-            id={"id"}
           />
         </div>
       </div>
