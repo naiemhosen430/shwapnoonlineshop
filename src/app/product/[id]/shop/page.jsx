@@ -11,33 +11,33 @@ export default function page() {
         <h1 className="text-3xl text-center p-5">Add details</h1>
         <div className="lg:w-6/12 m-auto p-10">
           <div className="p-4">
-            <label htmlFor="name" className="text-2xl p-2 block">
+            <label htmlFor="name" className="lg:text-2xl p-2 block">
               Enter Your full name
             </label>
             <input
-              className="text-xl p-2 px-4 rounded-xl block w-full"
+              className="lg:text-xl p-2 px-4 rounded-xl block w-full"
               type="text"
               id="name"
               placeholder="MD Naiem"
             />
           </div>
           <div className="p-4">
-            <label htmlFor="name" className="text-2xl p-2 block">
+            <label htmlFor="name" className="lg:text-2xl p-2 block">
               Enter Your phone number
             </label>
             <input
-              className="text-xl p-2 px-4 rounded-xl block w-full"
+              className="lg:text-xl p-2 px-4 rounded-xl block w-full"
               type="number"
               id="name"
               placeholder="017********"
             />
           </div>
           <div className="p-4">
-            <label htmlFor="name" className="text-2xl p-2 block">
+            <label htmlFor="name" className="lg:text-2xl p-2 block">
               Enter Your full Address
             </label>
             <input
-              className="text-xl p-2 px-4 rounded-xl block w-full"
+              className="lg:text-xl p-2 px-4 rounded-xl block w-full"
               type="text"
               id="name"
               placeholder="Kendua, Netrokona, Dhaka"
